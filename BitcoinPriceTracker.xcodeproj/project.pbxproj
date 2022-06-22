@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B2C1F08C2863BB8500FCD031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1F08B2863BB8500FCD031 /* AppDelegate.swift */; };
 		B2C1F08E2863BB8500FCD031 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1F08D2863BB8500FCD031 /* SceneDelegate.swift */; };
-		B2C1F0902863BB8500FCD031 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1F08F2863BB8500FCD031 /* ViewController.swift */; };
+		B2C1F0902863BB8500FCD031 /* BitcoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1F08F2863BB8500FCD031 /* BitcoinViewController.swift */; };
 		B2C1F0932863BB8500FCD031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C1F0912863BB8500FCD031 /* Main.storyboard */; };
 		B2C1F0962863BB8500FCD031 /* BitcoinPriceTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2C1F0942863BB8500FCD031 /* BitcoinPriceTracker.xcdatamodeld */; };
 		B2C1F0982863BB8800FCD031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C1F0972863BB8800FCD031 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		B2C1F0882863BB8500FCD031 /* BitcoinPriceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinPriceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C1F08B2863BB8500FCD031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C1F08D2863BB8500FCD031 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2C1F08F2863BB8500FCD031 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2C1F08F2863BB8500FCD031 /* BitcoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinViewController.swift; sourceTree = "<group>"; };
 		B2C1F0922863BB8500FCD031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2C1F0952863BB8500FCD031 /* BitcoinPriceTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitcoinPriceTracker.xcdatamodel; sourceTree = "<group>"; };
 		B2C1F0972863BB8800FCD031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			children = (
 				B2C1F08B2863BB8500FCD031 /* AppDelegate.swift */,
 				B2C1F08D2863BB8500FCD031 /* SceneDelegate.swift */,
-				B2C1F08F2863BB8500FCD031 /* ViewController.swift */,
+				B2C1F08F2863BB8500FCD031 /* BitcoinViewController.swift */,
 				B2C1F0912863BB8500FCD031 /* Main.storyboard */,
 				B2C1F0972863BB8800FCD031 /* Assets.xcassets */,
 				B2C1F0992863BB8800FCD031 /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2C1F0902863BB8500FCD031 /* ViewController.swift in Sources */,
+				B2C1F0902863BB8500FCD031 /* BitcoinViewController.swift in Sources */,
 				B2C1F08C2863BB8500FCD031 /* AppDelegate.swift in Sources */,
 				B2C1F0962863BB8500FCD031 /* BitcoinPriceTracker.xcdatamodeld in Sources */,
 				B2C1F08E2863BB8500FCD031 /* SceneDelegate.swift in Sources */,
